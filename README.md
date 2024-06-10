@@ -16,11 +16,6 @@
 ```
 
 
-**모듈 설치**
-```
-npm install dotenv express express-validator http-status-codes jsonwebtoken mysql2
-```
-
 **.env**
 ```
 #서버 포트 넘버
