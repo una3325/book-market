@@ -7,7 +7,8 @@ dotenv.config();
 
 app.use(
   cors({
-    origin: "http://localhost:3000",
+    origin: "http://localhost:3000", // 클라이언트 도메인
+    credentials: true, // 인증 정보를 허용
   })
 );
 
