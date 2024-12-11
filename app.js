@@ -11,7 +11,7 @@ app.use(
   })
 );
 
-app.listen(process.env.PROT);
+app.listen(process.env.PORT);
 
 const userRouter = require("./routes/users");
 const bookRouter = require("./routes/books");
